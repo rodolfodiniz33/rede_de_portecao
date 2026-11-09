@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="t d">
+  <title id="t">Duas mulheres se abraçando</title>
+  <desc id="d">Ilustração acolhedora em tons de rosa: duas mulheres se abraçam sob um coração e flores.</desc>
+  <rect width="640" height="400" fill="#fff6f9"/>
+  <circle cx="320" cy="210" r="170" fill="#f9cfdd"/>
+  <path d="M320 120c-18-34-70-22-70 18 0 36 40 58 70 82 30-24 70-46 70-82 0-40-52-52-70-18z" fill="#7a1245" transform="translate(0 -40) scale(1)"/>
+  <!-- figura esquerda -->
+  <circle cx="255" cy="215" r="30" fill="#3b0a24"/>
+  <circle cx="255" cy="222" r="22" fill="#e9b79c"/>
+  <path d="M215 330c0-48 18-80 40-80s40 32 40 80z" fill="#5a1a3a"/>
+  <!-- figura direita -->
+  <circle cx="385" cy="215" r="30" fill="#6b3a1f"/>
+  <circle cx="385" cy="222" r="22" fill="#c98a63"/>
+  <path d="M345 330c0-48 18-80 40-80s40 32 40 80z" fill="#7a1245"/>
+  <!-- abraço -->
+  <path d="M262 278c28 22 88 22 116 0" fill="none" stroke="#3b0a24" stroke-width="10" stroke-linecap="round"/>
+  <!-- flores -->
+  <g fill="#fff6f9" stroke="#5a1a3a" stroke-width="3">
+    <circle cx="90" cy="320" r="14"/><circle cx="130" cy="340" r="10"/><circle cx="550" cy="320" r="14"/><circle cx="510" cy="345" r="10"/>
+  </g>
+  <g stroke="#3b0a24" stroke-width="4" stroke-linecap="round">
+    <path d="M90 334v50M130 350v34M550 334v50M510 355v29"/>
+  </g>
+  <rect x="0" y="380" width="640" height="20" fill="#5a1a3a"/>
+</svg>

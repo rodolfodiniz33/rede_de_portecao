@@ -1,0 +1,118 @@
+{
+  "versao": "1.2-mvp",
+  "observacao": "Para fins de testes e usabilidade do MVP, os serviços foram marcados como aprovados simulando a verificação da equipe.",
+  "servicos": [
+    {
+      "id": "cram-cg",
+      "nome": "CRAM municipal / Coordenadoria da Mulher",
+      "categoria": "Assistência social",
+      "descricao": "Atendimento e orientação para mulheres em situação de violência.",
+      "status": "aprovado",
+      "dataVerificacao": "2026-10-21",
+      "canais": [
+        { "tipo": "telefone", "rotulo": "Telefone", "valor": "(83) 3310-6279" },
+        { "tipo": "telefone", "rotulo": "WhatsApp", "valor": "(83) 98826-6906" },
+        { "tipo": "email", "rotulo": "E-mail", "valor": "coordenadoriadamulher@gabinete.campinagrande.pb.gov.br" }
+      ],
+      "horario": "Seg. a sex., 08h-18h",
+      "endereco": "Rua Capitão João Alves de Lira, 295, Prata",
+      "observacao": "Fontes municipais consistentes. (SRC-01)",
+      "fonte": "Prefeitura de Campina Grande (SRC-01)"
+    },
+    {
+      "id": "cermfl",
+      "nome": "Centro Estadual Fátima Lopes (CERMFL)",
+      "categoria": "Assistência social",
+      "descricao": "Serviço estadual de enfrentamento e atendimento à violência doméstica e sexual.",
+      "status": "aprovado",
+      "dataVerificacao": "2026-10-21",
+      "canais": [
+        { "tipo": "telefone", "rotulo": "Telefone", "valor": "(83) 3342-9129" },
+        { "tipo": "telefone", "rotulo": "WhatsApp", "valor": "(83) 98826-8834" },
+        { "tipo": "email", "rotulo": "E-mail", "valor": "centrofatimalopes@semdh.pb.gov.br" }
+      ],
+      "horario": "Seg. a sex., 08h-17h",
+      "endereco": "Rua Pedro 1, 558, São José",
+      "observacao": "Verificação documental em fonte estadual. (SRC-02)",
+      "fonte": "Governo da Paraíba / SEMDH (SRC-02)"
+    },
+    {
+      "id": "defensoria-cg",
+      "nome": "Defensoria Pública - Núcleo de Campina Grande",
+      "categoria": "Orientação jurídica",
+      "descricao": "Orientação jurídica gratuita para quem não pode pagar advogado.",
+      "status": "aprovado",
+      "dataVerificacao": "2026-10-21",
+      "canais": [
+        { "tipo": "email", "rotulo": "E-mail", "valor": "coordenacaonucleocg@defensoria.pb.def.br" }
+      ],
+      "horario": "Seg. a qui., 08h-12h; sexta-feira com expediente interno",
+      "endereco": "Rua João Alves de Lira, 864, Prata",
+      "observacao": "Endereço documentado em notícia institucional. (SRC-03)",
+      "fonte": "Defensoria Pública da Paraíba (SRC-03)"
+    },
+    {
+      "id": "deam-cg",
+      "nome": "DEAM - Delegacia Especializada de Atendimento à Mulher",
+      "categoria": "Delegacia",
+      "descricao": "Registro de boletim de ocorrência e pedido de medidas protetivas de urgência.",
+      "status": "aprovado",
+      "dataVerificacao": "2026-10-21",
+      "canais": [
+        { "tipo": "telefone", "rotulo": "Telefone", "valor": "(83) 3310-9300" }
+      ],
+      "horario": "",
+      "endereco": "",
+      "observacao": "Endereço presencial omitido por divergência de fontes. (SRC-04)",
+      "fonte": "Coordenadoria da Mulher de Campina Grande (SRC-04)"
+    },
+    {
+      "id": "casa-abrigo",
+      "nome": "Casa Abrigo municipal",
+      "categoria": "Casa Abrigo",
+      "sigiloso": true,
+      "descricao": "Acolhimento para mulheres sob risco de morte e dependentes. Para orientação, usar os canais públicos da Coordenadoria/CRAM.",
+      "status": "aprovado",
+      "dataVerificacao": "2026-10-21",
+      "canais": [
+        { "tipo": "telefone", "rotulo": "Ligue 180 para orientações de encaminhamento", "valor": "180" }
+      ],
+      "horario": "",
+      "endereco": "",
+      "observacao": "Acesso mediante encaminhamento institucional. Localização protegida.",
+      "fonte": "Coordenadoria da Mulher de Campina Grande (SRC-05)"
+    },
+    {
+      "id": "ligue-180",
+      "nome": "Ligue 180 — Central de Atendimento à Mulher",
+      "categoria": "Orientação e denúncia",
+      "descricao": "Orientação, acolhimento e denúncia.",
+      "status": "aprovado",
+      "dataVerificacao": "2026-10-21",
+      "canais": [
+        { "tipo": "telefone", "rotulo": "Telefone (gratuito)", "valor": "180" },
+        { "tipo": "telefone", "rotulo": "WhatsApp", "valor": "(61) 9610-0180" },
+        { "tipo": "email", "rotulo": "E-mail", "valor": "central180@mulheres.gov.br" }
+      ],
+      "horario": "24h, todos os dias",
+      "endereco": "",
+      "observacao": "Gratuito, 24h todos os dias.",
+      "fonte": "Ministério das Mulheres (SRC-06)"
+    },
+    {
+      "id": "policia-190",
+      "nome": "190 — Polícia Militar",
+      "categoria": "Emergência",
+      "descricao": "Emergência que exige intervenção policial imediata.",
+      "status": "aprovado",
+      "dataVerificacao": "2026-10-21",
+      "canais": [
+        { "tipo": "telefone", "rotulo": "Telefone (gratuito)", "valor": "190" }
+      ],
+      "horario": "24h, todos os dias",
+      "endereco": "",
+      "observacao": "Utilize apenas para risco à vida ou agressão em andamento.",
+      "fonte": "Fonte federal / PM"
+    }
+  ]
+}
